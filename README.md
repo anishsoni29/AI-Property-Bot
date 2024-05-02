@@ -2,7 +2,9 @@
 
 Build a crew ai crew that performs property research using Ollama.
 
-# Startup 🚀
+# Startup 🦙
+
+<img src = "./property_bot.png">
 
 0. Install <a href="https://ollama.com/download">Ollama</a></p>
 1. Download openhermes `ollama pull openhermes`
