@@ -6,7 +6,10 @@ import requests
 from requests.exceptions import ConnectionError
 import time
 
-os.environ["SERPER_API_KEY"] = "bc7eb598d6f80bfa8b6bd4313c2eb42bb964747b"
+from dotenv import load_dotenv
+load_dotenv()
+
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 llm = Ollama(model="openhermes")
 
